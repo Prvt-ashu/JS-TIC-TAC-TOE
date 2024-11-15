@@ -43,3 +43,22 @@ const checkWinn = () => {
     }
   }
 };
+
+
+let resetbtn = document.querySelector("#reset-btn")
+
+const resetgame = () => {
+  
+  turnO = true;
+  boxesenable(); 
+  
+}
+
+const boxesenable = () => {
+  for(let box of boxes){
+  box.innerText = "";
+  box.disabled = false;
+  }
+}
+
+resetbtn.addEventListener("click" , resetgame)
