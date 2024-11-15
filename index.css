@@ -1,0 +1,48 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: rgb(0, 52, 97);
+    text-align: center;
+   
+}
+
+h1{
+    font-size: 2rem;
+    color: #ffffff;
+}
+
+.container{
+    height: 70vh;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.ttt{
+    height: 60vmin;
+    width: 60vmin;
+    gap: 1rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.box{
+  height: 18vmin;
+  width: 18vmin;
+  border-radius: 1rem;                         
+  border: none;
+  box-shadow: 0 , 0, 1rem, rgb(rgb(0,0,0,0.3));
+}
+
+#reset-btn{
+    width: 7rem;
+    height: 1.5rem;
+    border-radius: 1rem;
+    
+}
